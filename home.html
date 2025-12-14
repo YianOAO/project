@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>路見不平通報系統</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+.jumbotron {
+  background-color: #f4511e; /* 橙色 */
+  color: #ffffff;
+}
+.bg-1 {
+    background-color: #474e5d; /* 深藍色 */
+    color: #ffffff;
+  }
+  .container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.dropdown-menu-mid {
+  left: 50%;
+  transform: translateX(-50%);
+}
+</style>
+
+<body>
+<div class="jumbotron text-center">
+  <h1>路見不平通報系統</h1>
+  <p>即時的用路狀況通報系統</p>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">通報類型查詢
+        <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-mid">
+        <li class="dropdown-header">類型選擇</li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="Traffic accident.html">交通事故</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="Road hazards.html">道路危險狀況</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="Emergency.html">突發事件</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+</div>
+
+
+<div class="container-fluid bg-1 text-center">
+  <h2>註冊</h2> 
+  <p>註冊成為會員即可通報</p>
+  <a href="signup.html" class="btn btn-primary">signup</a>
+</div>
+<div class="container-fluid bg-1 text-center">
+  <h2>登入</h2>   
+  <a href="login.html" class="btn btn-primary">login</a>
+</div>
+</body>
+</html>
